@@ -1,0 +1,19 @@
+# Python & Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment variables & Secrets (CRITICAL)
+.env
+.env.local
+
+# VS Code settings
+.vscode/
+!.vscode/settings.json
+
+# Logs & OS Junk
+*.log
+Thumbs.db
+Desktop.ini
